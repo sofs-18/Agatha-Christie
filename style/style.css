@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 200px;
+  background-color: #e8d8ee;
+  color: #59416a;
+  font-family: "Nunito", sans-serif;
+}
+
+body{
+  margin-top: 90px;
+}
+
+/*HOME*/
+
+.section-nav{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  padding: 10px;
+  background-color: #fad9e9;
+  box-shadow: 0 0 30px 0 #c09eae;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-title{
+  font-size: 30px;
+  font-family: "Corinthia", cursive;
+  padding-left: 30px;
+}
+
+.icon-pena{
+  object-fit: cover;
+  width: 60px;
+  margin-bottom: 53px;
+}
+
+.nav-button{
+  margin-left: auto;
+}
+
+.button{
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  color: #a12572;
+  padding-right: 20px;
+  padding-left: 80px;
+  font-size: 25px;
+}
+
+/*INTRODUCTION*/
+
+.section-introduction{
+  display: flex;
+  padding: 50px;
+}
+
+.intro-text{
+  margin: 30px;
+}
+
+.intro-title{
+  font-size: 45px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.intro-sub{
+  color: #e855c5;
+  font-size: 45px;
+  text-indent: 50px;
+  margin-top: 20px;
+  font-family: "Corinthia", cursive;
+}
+
+.intro-p{
+  width: 700px;
+  padding: 10px;
+  text-align: justify;
+  text-indent: 10px;
+}
+
+.img-agatha{
+  width: 400px;
+  height: 500px;
+  border-radius: 15px;
+  border-style: dotted;
+  object-fit: cover;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: 80px;
+}
+
+/*CURIOSITIES*/
+
+.section-curiosities{
+  display: flex;
+  margin-top: 30px;
+}
+
+.icon-lupa{
+  width: 50px;
+  object-fit: cover;
+}
+
+.curi-p{
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  border-radius: 15px;
+  text-align: justify;
+  background-color: #d09dd7;
+  margin: 10px 20px 10px 20px;
+  padding: 30px;
+}
+
+.agatha-com{
+  text-decoration: none;
+  color: #850267;
+}
+
+/*BEST SELLERS*/
+
+.section-best{
+  display: flex;
+  margin-top: 90px;
+}
+
+.best-text{
+  margin-left: 55px;
+}
+
+.best-sub{
+  margin-top: 12px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+}
+
+.best-p{
+  margin-left: 15px;
+  text-align: justify;
+  width: 350px;
+}
+
+.img-livro{
+  box-shadow: 10px 5px 10px 0px #59416a;
+  object-fit: cover;
+  margin-left: 50px;
+  width: 300px;
+}
+
+.img-livro:hover{
+  transform: scale(1.03);
+}
+
+/*CHARACTERS*/
+
+.section-characters{
+  margin-top: 90px;
+  padding: 90px;
+  padding-top: 0px;
+}
+
+.content-1{
+  display: flex;
+  flex-direction: row;
+}
+
+.charac-text-1{
+  width: 600px;
+}
+
+.icon-bigode{
+  width: 50px;
+  object-fit: cover;
+}
+
+.charac-sub-1{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+}
+
+.charac-p-1{
+  text-indent: 20px;
+}
+
+.img-hercule{
+  margin-left: auto;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border-style: dashed;
+}
+
+.img-david{
+  margin-left: auto;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-style: dashed;
+  margin-top: 80px;
+}
+
+.content-2{
+  display: flex;
+  flex-direction: row;
+}
+
+.img-margaret{
+  margin-right: auto;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-style: dashed;
+}
+
+.img-marple{
+  margin-right: auto;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border-style: dashed;
+  margin-top: 80px;
+}
+
+.charac-text-2{
+  margin-left: auto;
+  width: 600px;
+}
+
+.icon-chapeu{
+  width: 50px;
+  object-fit: cover;
+}
+
+.charac-sub-2{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+}
+
+.charac-p-2{
+  text-indent: 20px;
+}
+
+.quote{
+  text-indent: 380px;
+  font-size: 10px;
+}
+
+/*BIBLIOGRAPHY*/
+
+.section-bibliography{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fad9e9;
+  box-shadow: 0 0 30px 0 #c09eae;
+  padding: 25px;
+}
+
+.bibli-title{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.link{
+  margin: 0px 45px 0px 45px;
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  color: #a12572;
+  font-size: 25px;
+}
