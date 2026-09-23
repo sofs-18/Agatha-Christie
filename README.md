@@ -1,6 +1,6 @@
 Agatha Christie
 
-A website created for a school project about Agatha Christie.
+A non-profit website created for a school project about Agatha Christie.
 
 - About the Project
 
